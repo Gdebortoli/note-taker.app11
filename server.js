@@ -5,7 +5,7 @@ const path = require('path');
 // Requiring Express 
 const express = require('express'); 
 
-// Requiring 
+
 
 // Instantiating Server (step 1)
 const app = express(); 
@@ -17,7 +17,12 @@ app.use(express.urlencoded({ extended: true }));
 // JS AND CSS file middleware
 app.use(express.static('public'));
 
-// Queries 
+
+
+// Queries ?
+
+
+// Create New Object
 
 
 
