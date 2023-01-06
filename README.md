@@ -1,8 +1,8 @@
-# Note Taker App
+# Note Taker
 
 ## Description
 
-Note Taker application that can be used to write and asve notes. It will save and retrieve notes from a JSON file. 
+Note Taker application that can be used to write and save notes. It will save and retrieve notes and data from a JSON file by using express.js. 
 
 ### User Story
 
@@ -10,15 +10,15 @@ Note Taker application that can be used to write and asve notes. It will save an
 
 ## Table of Contents
 
-- [Acceptance Criteria](#acceptance-criteria)
+- [Objectives](#objectives)
 - [Assets](#assets)
 - [Installation](#installation)
 - [Walkthrough Video](#walkthrough)
 - [Github Link](#github-link)
 
-## Acceptance Criteria
+## Objectives
 
-GIVEN a note-taking application
+A note taking application that meets the following criteria: 
 
 * WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
@@ -36,7 +36,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Assets
 
 * heroku 
-* express
+* express.js
 
 
 ## Installation
