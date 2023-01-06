@@ -36,7 +36,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Assets
 
 * heroku 
+* insomnia 
 * express.js
+* inquirer.js
+* File System
+* node.js
 
 
 ## Installation
