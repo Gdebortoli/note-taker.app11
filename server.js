@@ -1,28 +1,19 @@
-// Requiring file systems and file paths
-const fs = require('fs');
-const path = require('path'); 
 // Requiring Express 
 const express = require('express'); 
-
-// Instantiating Server (step 1)
+// Requiring file systems and file paths
 const app = express(); 
+
+// Instantiating Server
 const PORT = process.env.PORT || 3001; 
-
-// Parse incoming JSON data
-// app.request(express.json());
-// Routes
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
-// Parse incoming string or array data
+// Middleware
 app.use(express.urlencoded({ extended: true }));
-// JS AND CSS file middleware
+app.use(express.json());
+// JS AND CSS files
 app.use(express.static('public'));
-// Endpoint routes
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+// Routes
+app.use(require("./routes"));
 
-
-// Ask server to listen for requests (step 2 - stays last on the page)
+// Ask server to listen for requests 
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });

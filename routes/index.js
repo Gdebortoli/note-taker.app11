@@ -1,8 +1,9 @@
 // Middleware for routes in notes
 const router = require('express').Router();
-const notesRoutes = require('../apiRoutes/notesRoutes');
 
-router.use(notesRoutes);
+
+router.use('/api', require('./apiRoutes'));
+router.use('/', require('./htmlRoutes'));
 
 module.exports = router;
 
