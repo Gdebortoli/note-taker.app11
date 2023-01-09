@@ -53,11 +53,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 * run $ npm install in command line
 * run $ npm start to start the server 
 * go to localhost:3001 on your browser to test on local 
-- Prefered way is Heroku link
+- Prefered way is Heroku link below
 
 ## Deployment
 
-* ![Heroku Link to application!]()
+* [Heroku Link to application!](https://note-taker-gd-11.herokuapp.com/)
 
 ## Screenshots
 
@@ -67,7 +67,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 * Notes Page
 
-![NotesPage](/assets/images/SC.notes)
+![NotesPage](/assets/images/SC.notesPage.png)
 
 ## Github Link
 
