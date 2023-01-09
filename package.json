@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "alert": "^5.1.4",
     "express": "^4.16.4",
     "uuid": "^9.0.0"
   }

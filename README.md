@@ -39,8 +39,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 * insomnia 
 * express.js
 * inquirer.js
-* File System
+* file Systems
+* UUID 
+* path.js
 * node.js
+* Bootstrap
+* Font Awesome
 
 
 ## Installation
@@ -48,7 +52,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 * Clone the repository
 * run $ npm install in command line
 * run $ npm start to start the server 
-* go to 
+* go to localhost:3001 on your browser to test on local 
+- Prefered way is Heroku link
 
 ## Deployment
 
@@ -56,7 +61,13 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Screenshots
 
-![]()
+* Home Page
+
+![HomePage](/assets/images/SC.homePage.png)
+
+* Notes Page
+
+![NotesPage](/assets/images/SC.notes)
 
 ## Github Link
 
