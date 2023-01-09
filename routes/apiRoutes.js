@@ -11,10 +11,7 @@ router.get('/notes', (req, res) => {
   res.send(notes)
 })
 // POST/create a note
-router.post(
-  '/notes',
-  ('/notes',
-  (req, res) => {
+router.post('/notes', ('/notes', (req, res) => {
     const { title, text } = req.body
     const newNote = {
       title,
@@ -33,8 +30,10 @@ router.post(
 
 // DELETE a note
 router.delete('/notes/:id', (req, res) => {
+// Removing note by Id
   const id = req.params.id
   const index = notes.findIndex((note) => note.id === id)
+  // splice removes by overwriting the existing index/id
   notes.splice(index, 1)
 
   fs.writeFileSync(

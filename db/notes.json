@@ -1,12 +1,17 @@
 [
   {
-    "title": "Hello",
-    "text": "ndsf;kjas;",
-    "id": "01896465-5f8c-4878-9c73-14458c836ec6"
+    "title": "Reminders ",
+    "text": "Drink Water\nEat a snack \nCharge Phone \n",
+    "id": "a83bcee9-21ac-474a-a6b4-a99f8d5f7cfa"
   },
   {
-    "title": "Hera",
-    "text": "is so cute \n",
-    "id": "c8e4a772-0640-4aea-81c8-635de5567bc8"
+    "title": "Chores",
+    "text": "Clean Room \nDishes\nClean Bathroom \nVacuum \nWash Car \nGet oil Changed",
+    "id": "f72b4469-2f32-4020-bfa1-b564d96760a6"
+  },
+  {
+    "title": "Appointments",
+    "text": "Therapy - Thursday at 3:30pm \nDoctor appt - Friday at 9am",
+    "id": "be32b129-beab-4708-8913-f6c5a548ebfd"
   }
 ]
