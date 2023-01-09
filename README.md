@@ -13,7 +13,7 @@ Note Taker application that can be used to write and save notes. It will save an
 - [Objectives](#objectives)
 - [Assets](#assets)
 - [Installation](#installation)
-- [Walkthrough Video](#walkthrough)
+- [Deployment](#deployment)
 - [Github Link](#github-link)
 
 ## Objectives
@@ -47,11 +47,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 * Clone the repository
 * run $ npm install in command line
-* run $ nodemon server to start the server 
+* run $ npm start to start the server 
+* go to 
 
-## Walkthrough Video
+## Deployment
 
-* [Demo Video]()
+* ![Heroku Link to application!]()
 
 ## Screenshots
 
